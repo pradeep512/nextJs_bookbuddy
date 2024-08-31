@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { Book } from "../../../../lib/models/books";
+import { Book } from "../../../../../lib/models/books";
 
 export const GET = async (
   request: Request,
